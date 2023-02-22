@@ -1,3 +1,4 @@
+/* eslint-disable radix */
 /*
  * stmnts-03.js
  * Language: javascript
@@ -16,6 +17,7 @@
  */
 
 function rectanglePerimeter(width, height) {
+  let Perimeter;
   Perimeter = (width + height) * 2;
   Perimeter = Perimeter.toFixed(2);
   return parseInt(Perimeter);
@@ -29,7 +31,7 @@ function rectanglePerimeter(width, height) {
  *
  */
 function rectangleArea(width, height) {
-  Area = (width * height);
+  let Area = (width * height);
   Area = Area.toFixed(3);
   return parseFloat(Area);
 }
@@ -45,7 +47,7 @@ function rectangleArea(width, height) {
  * Hint: use toFixed()
  */
 function circleCircumference(radius) {
-  circumference = 2 * 3.14159 * radius;
+  let circumference = 2 * 3.14159 * radius;
   circumference = circumference.toFixed(2);
   return parseFloat(circumference);
 }
@@ -57,6 +59,7 @@ function circleCircumference(radius) {
  * @returns {number} - the area of the circle rounded to 2 decimal places
  */
 function circleArea(radius) {
+  let Area;
   Area = (3.14159 * radius * radius);
   Area = Area.toFixed(2);
   return parseFloat(Area);
@@ -71,6 +74,7 @@ function circleArea(radius) {
  * @returns {number} - the area of the triangle rounded to 2 decimal places
  */
 function triangleArea(base, height) {
+  let Area;
   Area = 0.5 * base * height;
   Area = Area.toFixed(2);
   return parseFloat(Area);

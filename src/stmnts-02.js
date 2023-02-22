@@ -1,3 +1,5 @@
+/* eslint-disable radix */
+/* eslint-disable no-param-reassign */
 /*
  * stmnts-02.js
  * Language: javascript

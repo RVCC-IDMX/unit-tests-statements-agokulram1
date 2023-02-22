@@ -1,3 +1,5 @@
+/* eslint-disable no-tabs */
+/* eslint-disable no-plusplus */
 /*
  * stmnts-07.js
  * Language: javascript
@@ -60,7 +62,7 @@ function invertBoolean(bool) {
 function numberOfOdds(num) {
   let count = 0;
   for (let i = 0; i < num; i++) {
-    if ((i % 2) != 0) {
+    if ((i % 2) !== 0) {
       count++;
     }
   }
@@ -112,9 +114,7 @@ function gradeGenerator(score) {
   if (score < 90) {
     return 'B';
   }
-  if (score <= 100) {
-    return 'A';
-  }
+  return 'A';
 }
 
 /**

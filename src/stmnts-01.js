@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 /*
  * stmnts-01.js
  * Language: javascript

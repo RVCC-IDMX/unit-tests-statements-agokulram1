@@ -12,7 +12,7 @@
  * @returns {number} - temperature in Celsius
  */
 function fahrenheitToCelsius(fahrenheit) {
-  celsius = (fahrenheit - 32) / 1.8;
+  let celsius = (fahrenheit - 32) / 1.8;
   celsius = celsius.toFixed(2);
   return parseFloat(celsius);
 }
@@ -23,7 +23,7 @@ function fahrenheitToCelsius(fahrenheit) {
  * @returns {number} - temperature in Fahrenheit
  */
 function celsiusToFahrenheit(celsius) {
-  fahrenheit = (celsius * 1.8) + 32;
+  let fahrenheit = (celsius * 1.8) + 32;
   fahrenheit = fahrenheit.toFixed(2);
   return parseFloat(fahrenheit);
 }
